@@ -1,0 +1,198 @@
+<section id="consultation" class="consultation-section">
+
+    <div class="consultation-container">
+
+        <div class="consultation-heading">
+
+            <div class="section-label">
+                AI Consultation
+            </div>
+
+            <h2>
+                Talk to
+                <span>Alpha.</span>
+            </h2>
+
+            <p>
+                Describe your symptoms, share a medical image,
+                and receive an AI-generated health assessment.
+            </p>
+
+        </div>
+
+
+        <div class="consultation-interface">
+
+
+            <!-- VOICE -->
+
+            <div class="input-card">
+
+                <div class="input-card-header">
+
+                    <div class="input-icon">
+                        🎙
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Voice Consultation
+                        </h3>
+
+                        <p>
+                            Tell Alpha what you are experiencing.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="gradio-placeholder"
+                    id="voice-input-area"
+                >
+
+                    <span>
+                        GRADIO VOICE COMPONENT
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- IMAGE -->
+
+            <div class="input-card">
+
+                <div class="input-card-header">
+
+                    <div class="input-icon">
+                        ⌁
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Medical Image
+                        </h3>
+
+                        <p>
+                            Upload or capture an image for analysis.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="gradio-placeholder"
+                    id="image-input-area"
+                >
+
+                    <span>
+                        GRADIO IMAGE / CAMERA COMPONENT
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ANALYZE BUTTON -->
+
+        <div class="analyze-wrapper">
+
+            <button
+                class="gradio-button-placeholder"
+                id="analyze-button"
+            >
+
+                Analyze with Alpha
+                <span>→</span>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- AI RESPONSE -->
+
+        <div class="assessment-card">
+
+            <div class="assessment-header">
+
+                <div>
+
+                    <div class="assessment-label">
+                        ALPHA ASSESSMENT
+                    </div>
+
+                    <h3>
+                        AI Health Response
+                    </h3>
+
+                </div>
+
+
+                <div class="assessment-status">
+
+                    <span></span>
+                    READY
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="assessment-content"
+                id="assessment-output"
+            >
+
+                Your AI assessment will appear here.
+
+            </div>
+
+
+
+            <!-- VOICE RESPONSE -->
+
+            <div class="voice-response">
+
+                <div class="voice-response-icon">
+                    ◖
+                </div>
+
+                <div>
+
+                    <strong>
+                        Alpha Voice Response
+                    </strong>
+
+                    <span>
+                        AI generated audio response
+                    </span>
+
+                </div>
+
+
+                <div class="voice-player-placeholder">
+                    GRADIO AUDIO
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
